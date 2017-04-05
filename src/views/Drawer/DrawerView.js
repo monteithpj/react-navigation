@@ -194,6 +194,7 @@ export default class DrawerView extends React.PureComponent<
         drawerWidth={this.state.drawerWidth}
         onDrawerOpen={this._handleDrawerOpen}
         onDrawerClose={this._handleDrawerClose}
+        onDrawerSlide={this.props.onDrawerSlide}
         useNativeAnimations={this.props.useNativeAnimations}
         renderNavigationView={this._renderNavigationView}
         drawerPosition={
